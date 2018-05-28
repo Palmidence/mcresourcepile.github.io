@@ -20,6 +20,26 @@ if (user_settings.synced == false) {
     );
 }
 
+$('.close[data-dismiss="alert"]').click(function() {
+    $(this).parent().alert('close');
+    if (user_settings.disabled_alerts) {
+        user_settings.disabled_alerts.push( $(this).parent().attr('id') );
+    } else {
+        user_settings.disabled_alerts = ['' + $(this).parent().attr('id') + ''];
+    }
+    saveSettings();
+});
+
+$(document).ready(function () {
+    for (var i = 1; i < $('.alert-global').length; i++) {
+        for (var j = 0; j < user_settings.disabled_alerts.length; j++) {
+            if ( user_settings.disabled_alerts.indexOf( $('.alert-global').eq(i).attr('id') ) == -1 ) {
+                $('.alert-global').eq(i).alert('');
+            }
+        }
+    }
+});
+
 var window_offset = function() { scrollBy(0, -70) };
 if (location.hash) window_offset();
 window.addEventListener("hashchange", window_offset);

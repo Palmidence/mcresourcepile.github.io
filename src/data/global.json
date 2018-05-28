@@ -6,11 +6,21 @@
         "header": true,
         "full": false,
         "alerts": {
-            "enabled": false,
+            "enabled": true,
             "messages": [
                 {
                     "class": "info",
-                    "message": "",
+                    "message": "test alert",
+                    "dismissible": true
+                },
+                {
+                    "class": "info",
+                    "message": "what is this alert",
+                    "dismissible": true
+                },
+                {
+                    "class": "info",
+                    "message": "today we announce",
                     "dismissible": true
                 }
             ]
