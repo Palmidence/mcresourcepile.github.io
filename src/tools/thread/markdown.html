@@ -1,4 +1,5 @@
 {{> navigation_header}}
+<div class="alert alert-info alert-global" role="alert">Check out our <a href="html">HTML map submission builder</a>!</div>
 <div class="row">
     <div class="col-md-6">
         <form id="input-form" class="form-horizontal" action="#" method="post">
@@ -71,8 +72,6 @@
         <div class="alert alert-warning alert-global alert-sm" role="alert">Please note that things may appear slightly different on the Stratus forums</div>
     </div>
 </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.7.2/showdown.min.js"></script>
 <script id="output-template" type="text/x-handlebars-template">### **‹‹input-name››**  
     ###### Created by ‹‹#ifObject input-author››‹‹#each input-author as |author|››‹‹author››‹‹#unless @last››, ‹‹/unless››‹‹/each››‹‹else››‹‹input-author››‹‹/ifObject››
         
