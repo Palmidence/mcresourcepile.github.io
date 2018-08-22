@@ -1,0 +1,68 @@
+{
+    "title": "Attack of the Cores",
+    "subtitle": "Records for Attack of the Cores, a tournament hosted by Overcast Network",
+    "page-category": ["tournaments", "league", "overcast"],
+    "announcement": "",
+    "challonge": [
+        {"bracket": "https://ocn.challonge.com/aotc/module"}
+    ],
+    "method": "Single Elimination",
+    "gamemodes": "DTC and DTM",
+    "selection": "32 teams",
+    "players": "8v8",
+    "stages": [
+        {"stage": "Knockout Rounds", "date": "August 21th, 2016"},
+        {"stage": "Invitationals", "date": "August 27-28th, 2016"}
+    ],
+    "pool": [
+        {"name": "Warlock",            "slug": "warlock",            "gamemode": "Destroy the Monument"},
+        {"name": "Interitus",          "slug": "interitus",          "gamemode": "Destroy the Monument, Destroy the Core"},
+        {"name": "Spaceship Battles",  "slug": "spaceship_battles",  "gamemode": "Destroy the Monument, Destroy the Core"}
+    ],
+    "first_place": "Starfish",
+    "second_place": "Badlion",
+    "third_place": "#YOLOSwag",
+    "groups": [
+        {
+            "group": "Participants",
+            "teams": [
+                {"team": "Badlion"},
+                {"team": "Fellowship of project ares"},
+                {"team": "OCBP"},
+                {"team": "OmegaWolves"},
+                {"team": "Ursa Major"},
+                {"team": "BichesGonCrazy"},
+                {"team": "Girl Scouts"},
+                {"team": "Loading..."},
+                {"team": "Better Get a Broom"},
+                {"team": "Normania"},
+                {"team": "SpiderBronies"},
+                {"team": "Team Infinite"},
+                {"team": "Impact"},
+                {"team": "Broseidon"},
+                {"team": "Sexy Squad"},
+                {"team": "FishBears"}
+            ]
+        }, {
+            "group": "Participants",
+            "teams": [
+                {"team": "Starfish"},
+                {"team": "Team Synergy"},
+                {"team": "Divinance"},
+                {"team": "Omega Gamers"},
+                {"team": "Team Supreme"},
+                {"team": "Multiple Scoregasms"},
+                {"team": "Game Mode 1"},
+                {"team": "Ligers"},
+                {"team": "#YOLOSwag"},
+                {"team": "The Imposters"},
+                {"team": "Fairytales"},
+                {"team": "Core Attackers"},
+                {"team": "Team Fishy"},
+                {"team": "nope.avi"},
+                {"team": "SC"},
+                {"team": "PhatKidz"}
+            ]
+        }
+    ]
+}
