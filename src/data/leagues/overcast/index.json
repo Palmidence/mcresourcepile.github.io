@@ -24,6 +24,6 @@
         {"name": "Return of the Hill", "disabled": true},
         {"name": "Goblet of Gamemodes", "disabled": true},
         {"name": "Raiders of the Lost Wool", "disabled": true},
-        {"name": "Attack of the Cores", "disabled": true}
+        {"name": "Attack of the Cores"}
     ]
 }
